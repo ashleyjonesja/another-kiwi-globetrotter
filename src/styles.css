@@ -1,7 +1,7 @@
 body {
   margin: 60px auto;
   max-width: 900px;
-  background-color: #fdf6f0;
+  background-color: white;
 }
 
 .bg-light .navbar-light {
@@ -12,6 +12,7 @@ body {
   --primary-color: #9b72aa;
   --secondary-color: #c6b4ce;
   --heading-color: #3c5186;
+  --para-color: #fdf6f0;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -81,7 +82,7 @@ h3 {
 }
 
 p {
-  background: var(--secondary-color);
+  background: var(--para-color);
   padding: 20px;
   border-radius: 4px;
   font-size: 13px;

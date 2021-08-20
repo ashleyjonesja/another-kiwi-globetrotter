@@ -63,7 +63,11 @@ svg {
   padding: 160px 20px;
 }
 
-.container-usa .container-cook .container-about {
+.country {
+  padding: 160px 20px;
+}
+
+.container-about {
   padding: 160px 20px;
 }
 

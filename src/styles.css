@@ -152,3 +152,8 @@ svg {
 .shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
+
+.navbar-light .navbar-brand .nav-link .navbar-nav {
+  font-family: var(--primary-font) !important;
+  color: var(--heading-color) !important;
+}

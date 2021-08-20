@@ -74,7 +74,7 @@ svg {
   font-weight: bolder;
 }
 
-.learn-links {
+.learn-links .email-link {
   display: flex;
   margin-top: 0px;
   justify-content: center;
@@ -113,14 +113,6 @@ svg {
 
 .about-paragraphs p {
   margin: 10px;
-}
-
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
 }
 
 .rounded {

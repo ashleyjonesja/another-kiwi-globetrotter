@@ -1,7 +1,12 @@
 body {
   margin: 60px auto;
   max-width: 900px;
-  background-color: white;
+  background-image: linear-gradient(
+    to top,
+    #f3e7e9 0%,
+    #e3eeff 99%,
+    #e3eeff 100%
+  );
 }
 
 .bg-light .navbar-light {
@@ -52,6 +57,12 @@ p {
   line-height: 1.5;
   text-align: center;
 }
+
+img,
+svg {
+  vertical-align: middle;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -115,11 +126,6 @@ p {
 .img-fluid {
   max-width: 100%;
   height: auto;
-}
-
-img,
-svg {
-  vertical-align: middle;
 }
 
 .primary-link {

@@ -152,3 +152,8 @@ svg {
 .hover {
   color: var(--heading-color);
 }
+
+.contact {
+  display: flex;
+  text-align: center;
+}

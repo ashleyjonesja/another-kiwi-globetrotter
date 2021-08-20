@@ -59,6 +59,10 @@ svg {
   vertical-align: middle;
 }
 
+.intro {
+  padding: 160px 20px;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;

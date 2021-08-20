@@ -5,7 +5,7 @@ body {
     to top,
     #f3e7e9 0%,
     #e3eeff 99%,
-    #e3eeff 100%
+    #e5f0ff 100%
   );
 }
 
@@ -151,8 +151,4 @@ svg {
 }
 .shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-}
-
-.navbar .navbar-expand-lg .navbar-light .bg-light {
-  background: #fdf6f0 !important;
 }

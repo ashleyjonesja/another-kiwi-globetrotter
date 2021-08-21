@@ -85,27 +85,12 @@ svg {
   border-radius: 5px;
   border: 1px solid var(--primary-color);
   padding: 1em 1.5em;
-  display: inline-block;
   font-size: 1.5em;
   font-style: bold;
   margin: 0 1em;
   margin-bottom: 1em;
   min-width: 10em;
   transition: all 0.25s ease;
-}
-
-.contact-btn {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
-.navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  display: inline-block;
 }
 
 .homepage-link {
@@ -133,14 +118,21 @@ svg {
 }
 
 .primary-link {
-  margin: 10px;
-  border-radius: 4px;
-  padding: 20px;
+  display: inline-block;
+  padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+  font-size: 1.5em;
+  font-style: bold;
+  margin: 0 1em;
+  margin-bottom: 1em;
+  min-width: 10em;
+  transition: all 0.25s ease;
 }
 
 .row {

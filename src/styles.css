@@ -97,6 +97,7 @@ svg {
 
 .primary-link {
   width: 45%;
+  margin: 15px 5px;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;

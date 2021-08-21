@@ -134,4 +134,5 @@ a:hover {
   background-color: var(--para-color);
   border-radius: 0.25rem;
   transition: all 150ms ease;
+  padding: 10px;
 }

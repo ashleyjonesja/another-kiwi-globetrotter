@@ -130,7 +130,7 @@ svg {
 }
 
 a:hover {
-  color: white;
+  color: var(--primary-color);
   font-weight: 400;
-  background-color: var(--primary-color);
+  background-color: var(--hover-color);
 }

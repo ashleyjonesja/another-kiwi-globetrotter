@@ -14,7 +14,6 @@ body {
   --secondary-color: #c6b4ce;
   --heading-color: #3c5186;
   --para-color: #fdf6f0;
-  --hover-color: #c9bfcf;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --primary-font: "Klee One", cursive;
   --heading-font: "Rampart One", cursive;
@@ -132,5 +131,5 @@ svg {
 a:hover {
   color: var(--primary-color);
   font-weight: 400;
-  background-color: var(--hover-color);
+  background-color: var(--para-color);
 }

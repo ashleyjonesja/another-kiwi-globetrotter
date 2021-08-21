@@ -78,20 +78,23 @@ svg {
   font-weight: bolder;
 }
 
-.learn-links .email-link {
-  display: flex;
-  margin-top: 0px;
-  justify-content: center;
-  font-weight: bolder;
-}
-
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+  padding: 1em 1.5em;
+  display: inline-block;
+  font-size: 1.5em;
+  font-style: bold;
+  margin: 0 1em;
+  margin-bottom: 1em;
+  min-width: 10em;
+  transition: all 0.25s ease;
 }
 
-.about-link {
+.contact-btn {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
@@ -102,6 +105,7 @@ svg {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  display: inline-block;
 }
 
 .homepage-link {
@@ -153,6 +157,6 @@ svg {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
-.hover {
+:hover {
   color: var(--heading-color);
 }

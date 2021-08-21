@@ -128,16 +128,8 @@ svg {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
-li:hover {
-  color: var(--primary-color);
-}
-
-#buttons a:hover {
+a:hover {
   color: white;
   font-weight: 400;
   background-color: var(--primary-color);
-}
-
-#nav-link a:hover {
-  color: var(--primary-color);
 }

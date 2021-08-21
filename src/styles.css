@@ -71,28 +71,6 @@ svg {
   padding: 160px 20px;
 }
 
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-  font-weight: bolder;
-}
-
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-  border-radius: 5px;
-  border: 1px solid var(--primary-color);
-  padding: 1em 1.5em;
-  font-size: 1.5em;
-  font-style: bold;
-  margin: 0 1em;
-  margin-bottom: 1em;
-  min-width: 10em;
-  transition: all 0.25s ease;
-}
-
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
@@ -118,21 +96,17 @@ svg {
 }
 
 .primary-link {
-  display: inline-block;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
   border-radius: 5px;
   border: 1px solid var(--primary-color);
+  padding: 1em 1.5em;
+  display: inline-block;
   font-size: 1.5em;
-  font-style: bold;
+  font-style: italic;
   margin: 0 1em;
   margin-bottom: 1em;
   min-width: 10em;
   transition: all 0.25s ease;
+  background: var(--primary-color);
 }
 
 .row {

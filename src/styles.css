@@ -132,8 +132,12 @@ li:hover {
   color: var(--primary-color);
 }
 
-button:hover {
+#buttons a:hover {
   color: white;
   font-weight: 400;
   background-color: var(--primary-color);
+}
+
+#nav-link a:hover {
+  color: var(--primary-color);
 }

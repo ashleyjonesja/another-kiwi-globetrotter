@@ -132,4 +132,6 @@ a:hover {
   color: var(--primary-color);
   font-weight: 400;
   background-color: var(--para-color);
+  border-radius: 0.25rem;
+  transition: all 150ms ease;
 }

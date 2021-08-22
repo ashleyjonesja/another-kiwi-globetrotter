@@ -158,8 +158,12 @@ footer .contact-box {
 
 footer .email-link {
   text-decoration: none;
-  color: black;
+  color: var(--heading-color);
   font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
 }
 
 p .git-link {
@@ -169,10 +173,14 @@ p .git-link {
 
 footer .social-links a {
   margin: 0 20px;
-  color: var(--primary-color);
+  color: var(--para-color);
   background: var(--secondary-color);
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
   transition: all 100ms ease-in-out;
+}
+
+footer .social-links:hover {
+  background: var(--heading-color);
 }

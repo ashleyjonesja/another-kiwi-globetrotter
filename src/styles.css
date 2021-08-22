@@ -147,8 +147,7 @@ footer .email-link:hover {
   color: var(--primary-color);
 }
 
-p .git-link {
-  background: transparent;
+small {
   color: var(--heading-color);
 }
 

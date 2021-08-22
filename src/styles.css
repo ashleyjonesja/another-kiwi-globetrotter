@@ -127,9 +127,9 @@ p .about-paragraphs .country-paragraphs {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
-a .primary-link:hover {
-  color: var(--para-color);
-  background-color: var(--primary-color);
+a:hover {
+  color: var(--primary-color);
+  background-color: var(--para-color);
   transition: all 150ms ease;
 }
 

@@ -150,6 +150,10 @@ p .about-paragraphs .country-paragraphs {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
+a {
+  color: var(--primary-color);
+}
+
 a:hover {
   color: var(--primary-color);
   background-color: var(--para-color);

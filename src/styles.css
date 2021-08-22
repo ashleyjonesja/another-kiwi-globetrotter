@@ -155,7 +155,7 @@ a {
 }
 
 a:hover {
-  color: var(--primary-color);
+  color: var(--heading-color);
   background-color: var(--para-color);
   transition: all 150ms ease;
 }

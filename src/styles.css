@@ -180,7 +180,7 @@ footer .social-links a {
   font-size: 18px;
 }
 
-i:hover {
+a .icon:hover {
   background: var(--heading-color);
   transition: all 100ms ease-in-out;
 }

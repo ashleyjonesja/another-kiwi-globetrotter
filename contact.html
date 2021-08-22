@@ -85,90 +85,39 @@
         </div>
       </div>
     </nav>
-    <div class="container intro">
-      <h1>Travel Tips</h1>
-      <h3>Here's some inspiration for your next adventure!</h3>
-    </div>
-    <div class="container">
-      <div class="row mt-2 country">
-        <div class="col-md-6">
-          <img
-            src="/images/usa.jpg"
-            alt="hammock beside sea"
-            class="img-fluid p-2 shadow rounded"
-          />
-        </div>
-        <div class="col-md-6">
-          <h2 id="america" class="mb-4">America</h2>
-          <p class="country-paragraphs">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-        </div>
-      </div>
-      <div class="row mt-5 country">
-        <div class="col-md-6">
-          <h2 id="cook-islands" class="mb-4">Cook Islands</h2>
-          <p class="country-paragraphs">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-        </div>
-        <div class="col-md-6">
-          <img
-            src="/images/cookislands.jpg"
-            alt="hammock beside sea"
-            class="img-fluid p-2 shadow rounded"
-          />
-        </div>
-      </div>
-      <div class="row mt-5 country">
-        <div class="col-md-6">
-          <h2 class="mb-4">Canada</h2>
-          <p class="country-paragraphs">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-        </div>
-        <div class="col-md-6">
-          <img
-            src="/images/canada.jpg"
-            alt="hammock beside sea"
-            class="img-fluid p-2 shadow rounded"
-          />
-        </div>
-      </div>
-      <div class="row mt-5 country">
-        <div class="col-md-6">
-          <h2 class="mb-4">Japan</h2>
-          <p class="country-paragraphs">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-        </div>
-        <div class="col-md-6">
-          <img
-            src="/images/japan.jpg"
-            alt="hammock beside sea"
-            class="img-fluid p-2 shadow rounded"
-          />
-        </div>
-      </div>
-    </div>
+    <div class="content-container container">
+      <div class="content">
+        <h1 class="mb-5">Get in touch.</h1>
+        <h3>Got a question? Fire away!</h3>
+        <div class="row">
+          <div class="col-md-8">
+            <form
+              action="https://formspree.io/f/mwkalajy"
+              method="POST"
+              class="border p-3 rounded mb-3"
+            >
+              <div class="mb-3">
+                <label class="form-label"> Your email: </label>
+                <input
+                  type="email"
+                  name="_replyto"
+                  class="form-control"
+                  required=""
+                  autofocus=""
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label"> Your message: </label>
+                <textarea
+                  name="message"
+                  class="form-control"
+                  required=""
+                ></textarea>
+              </div>
+              <button type="submit" class="primary-link">Send</button>
+            </form>
+            </div>
     <footer class="container">
-      <div class="d-flex justify-content-center">
-        <a href="#" class="contact-link mt-3 mb-3" title="contact-email"
-          >Contact Me</a
-        >
-      </div>
       <div class="social-links d-flex justify-content-center">
         <a href="#" target="_blank" title="GitHub Profile" class="icon">
           <i class="fab fa-github" aria-hidden="true"></i>
@@ -190,5 +139,5 @@
         </a>
       </p>
     </footer>
-  </body>
+</body>
 </html>

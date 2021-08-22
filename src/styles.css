@@ -148,12 +148,12 @@ footer .email-link:hover {
 }
 
 p .git-link {
-  background: var(--heading-color);
-  color: white;
+  background: transparent;
+  color: var(--heading-color);
 }
 
 footer .social-links a {
-  margin: 0 20px;
+  margin: 0 15px;
   color: var(--para-color);
   background: var(--secondary-color);
   padding: 10px 14px;

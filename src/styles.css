@@ -64,7 +64,7 @@ svg {
   margin: 80px 0 40px 0;
 }
 
-.about-paragraphs .country-paragraphs p {
+p .about-paragraphs .country-paragraphs {
   margin: 10px;
 }
 
@@ -128,7 +128,7 @@ svg {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
-a:hover {
+a .primary-link:hover {
   color: var(--primary-color);
   font-weight: 400;
   background-color: var(--para-color);

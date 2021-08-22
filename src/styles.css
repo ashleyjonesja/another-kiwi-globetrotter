@@ -103,7 +103,7 @@ p .about-paragraphs .country-paragraphs {
   line-height: 1.5;
   border-radius: 0.25rem;
   user-select: none;
-  background-color: transparent;
+  background: transparent;
   text-align: center;
   vertical-align: middle;
   display: inline-block;
@@ -129,12 +129,9 @@ p .about-paragraphs .country-paragraphs {
 }
 
 a .primary-link:hover {
-  color: var(--primary-color);
-  font-weight: 400;
-  background-color: var(--para-color);
-  border-radius: 0.25rem;
+  color: var(--para-color);
+  background: var(--primary-color);
   transition: all 150ms ease;
-  padding: 7px;
 }
 
 footer {

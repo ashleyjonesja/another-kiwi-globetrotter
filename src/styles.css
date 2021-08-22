@@ -147,8 +147,8 @@ footer .email-link:hover {
   color: var(--primary-color);
 }
 
-small {
-  color: black;
+p .git-link {
+  color: var(--heading-color);
   text-align: center;
 }
 

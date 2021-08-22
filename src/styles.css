@@ -178,6 +178,12 @@ a:hover {
   transition: all 150ms ease;
 }
 
+button:hover {
+  color: var(--heading-color);
+  background-color: var(--para-color);
+  transition: all 150ms ease;
+}
+
 footer {
   margin: 60px 0;
 }

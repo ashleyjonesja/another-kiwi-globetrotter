@@ -181,6 +181,6 @@ footer .social-links a {
 }
 
 i:hover {
-  color: var(--heading-color);
+  background: var(--heading-color);
   transition: all 100ms ease-in-out;
 }

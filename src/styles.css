@@ -148,7 +148,8 @@ footer .email-link:hover {
 }
 
 small {
-  color: var(--heading-color);
+  color: black;
+  text-align: center;
 }
 
 footer .social-links a {

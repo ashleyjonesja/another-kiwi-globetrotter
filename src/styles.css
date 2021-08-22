@@ -118,7 +118,7 @@ p .about-paragraphs .country-paragraphs {
   border: 1px solid var(--primary-color);
 }
 
-button .primary-link {
+button {
   width: 45%;
   margin: 15px 112px;
   padding: 0.375rem 0.75rem;
